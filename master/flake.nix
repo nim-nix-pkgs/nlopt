@@ -11,7 +11,6 @@
   inputs.src-nlopt-master.ref   = "refs/heads/master";
   inputs.src-nlopt-master.owner = "Vindaar";
   inputs.src-nlopt-master.repo  = "nimnlopt";
-  inputs.src-nlopt-master.dir   = "";
   inputs.src-nlopt-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
